@@ -1,0 +1,16 @@
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.csproj.AssemblyReference.cache
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\MainWindow.g.cs
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\App.g.cs
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu_MarkupCompile.cache
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu_MarkupCompile.lref
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\bin\Debug\huhuhu.exe.config
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\bin\Debug\huhuhu.exe
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\bin\Debug\huhuhu.pdb
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\MainWindow.baml
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.g.resources
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.Properties.Resources.resources
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.csproj.GenerateResource.cache
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.csproj.CoreCompileInputs.cache
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.exe
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.pdb
+C:\Users\25-024s\Downloads\huhuhu\huhuhu\obj\Debug\huhuhu.exe.config
