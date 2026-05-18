@@ -1,0 +1,5 @@
+C:\Users\25-024s\source\repos\midterms\midterms\obj\Debug\midterms.csproj.AssemblyReference.cache
+C:\Users\25-024s\source\repos\midterms\midterms\obj\Debug\MainWindow.g.cs
+C:\Users\25-024s\source\repos\midterms\midterms\obj\Debug\App.g.cs
+C:\Users\25-024s\source\repos\midterms\midterms\obj\Debug\midterms_MarkupCompile.cache
+C:\Users\25-024s\source\repos\midterms\midterms\obj\Debug\midterms_MarkupCompile.lref

@@ -1,0 +1,203 @@
+﻿<Window x:Class="huhuhu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:huhuhu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Background="#FFCDF9FF">
+
+        <DataGrid x:Name="Menu"
+                  ItemsSource="{Binding Employees}"
+                  AutoGenerateColumns="False"
+                  Margin="308,88,10,99"
+                  Background="White">
+                
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="*"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*"/>
+                <DataGridTextColumn Header="Department" Binding="{Binding Department}" Width="*"/>
+                <DataGridTextColumn Header="Salary" Binding="{Binding Salary}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox HorizontalAlignment="Left"
+   
+    Height="121"
+    Margin="37,5,0,0"
+    TextWrapping="Wrap"
+    Text="⠀⠀⠀⢠⡾⠲⠶⣤⣀⣠⣤⣤⣤⡿⠛⠿⡴⠾⠛⢻⡆⠀⠀⠀&#xD;&#xA;⠀⠀⠀⣼⠁⠀⠀⠀⠉⠁⠀⢀⣿⠐⡿⣿⠿⣶⣤⣤⣷⡀⠀⠀&#xD;&#xA;⠀⠀⠀⢹⡶⠀⠀⠀⠀⠀⠀⠈⢯⣡⣿⣿⣀⣸⣿⣦⢓⡟⠀⠀&#xD;&#xA;⠀⠀⢀⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠹⣍⣭⣾⠁⠀⠀&#xD;&#xA;⠀⣀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣸⣷⣤⡀&#xD;&#xA;⠈⠉⠹⣏⡁⠀⢸⣿⠀⠀⠀⢀⡀⠀⠀⠀⣿⠆⠀⢀⣸⣇⣀⠀&#xD;&#xA;⠀⠐⠋⢻⣅⣄⢀⣀⣀⡀⠀⠯⠽⠂⢀⣀⣀⡀⠀⣤⣿⠀⠉⠀&#xD;&#xA;⠀⠀⠴⠛⠙⣳⠋⠉⠉⠙⣆⠀⠀⢰⡟⠉⠈⠙⢷⠟⠉⠙⠂⠀&#xD;&#xA;⠀⠀⠀⠀⠀⢻⣄⣠⣤⣴⠟⠛⠛⠛⢧⣤⣤⣀⡾"
+    VerticalAlignment="Top"
+    Width="247"
+    Background="#FFCDF9FF"
+    FontWeight="Bold"
+    BorderBrush="#FFCDF9FF"  FontSize="7.5" Foreground="#FFEC2A56"/>
+
+        <TextBox x:Name="txtID"
+                 HorizontalAlignment="Left"
+                 Height="26"
+                 Margin="10,364,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="261"/>
+
+        <TextBlock HorizontalAlignment="Center"
+                   Height="40"
+                   Margin="0,26,0,0"
+                   TextWrapping="Wrap"
+                   Text="Employee"
+                   VerticalAlignment="Top"
+                   Width="172"
+                   FontSize="35"
+                   FontFamily="Monotype Corsiva"
+                   Foreground="#FFEC2A56"
+                   FontWeight="Bold"/>
+
+        <TextBlock HorizontalAlignment="Left"
+                   Height="19"
+                   Margin="12,345,0,0"
+                   TextWrapping="Wrap"
+                   Text="ID"
+                   VerticalAlignment="Top"
+                   Width="171"
+                   FontSize="13"
+                   FontFamily="Palatino Linotype"/>
+
+        <TextBox x:Name="txtName"
+                 HorizontalAlignment="Left"
+                 Height="26"
+                 Margin="10,298,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="261"/>
+
+        <TextBlock HorizontalAlignment="Left"
+                   Height="19"
+                   Margin="11,278,0,0"
+                   TextWrapping="Wrap"
+                   Text="Name"
+                   VerticalAlignment="Top"
+                   Width="171"
+                   FontSize="13"
+                   FontFamily="Palatino Linotype"/>
+
+        <TextBlock HorizontalAlignment="Left"
+                   Height="19"
+                   Margin="12,214,0,0"
+                   TextWrapping="Wrap"
+                   Text="Title"
+                   VerticalAlignment="Top"
+                   Width="171"
+                   FontSize="13"
+                   FontFamily="Palatino Linotype"/>
+
+        <TextBox x:Name="txtTitle"
+                 HorizontalAlignment="Left"
+                 Height="25"
+                 Margin="10,233,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="261"/>
+
+        <TextBlock HorizontalAlignment="Left"
+                   Height="19"
+                   Margin="12,145,0,0"
+                   TextWrapping="Wrap"
+                   Text="Department"
+                   VerticalAlignment="Top"
+                   Width="171"
+                   FontSize="13"
+                   FontFamily="Palatino Linotype"/>
+
+        <TextBox x:Name="txtDepartment"
+                 HorizontalAlignment="Left"
+                 Height="26"
+                 Margin="10,164,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="261"/>
+
+
+        <TextBlock HorizontalAlignment="Left"
+                   Height="19"
+                   Margin="11,80,0,0"
+                   TextWrapping="Wrap"
+                   Text="Salary"
+                   VerticalAlignment="Top"
+                   Width="171"
+                   FontSize="13"
+                   FontFamily="Palatino Linotype"/>
+
+        <TextBox x:Name="txtSalary"
+                 HorizontalAlignment="Left"
+                 Height="26"
+                 Margin="10,100,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="261"/>
+
+        <Button Content="Add"
+                HorizontalAlignment="Left"
+                Height="19"
+                Margin="325,345,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Background="#FFFF84A0"
+                FontFamily="Palatino Linotype"
+                Click="Add_Click"/>
+
+        <Button Content="Remove"
+                HorizontalAlignment="Left"
+                Height="19"
+                Margin="411,345,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Background="#FFFF84A0"
+                FontFamily="Palatino Linotype"/>
+
+        <Button Content="Update"
+                HorizontalAlignment="Left"
+                Height="19"
+                Margin="498,345,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Background="#FFFF84A0"
+                FontFamily="Palatino Linotype"/>
+
+        <Button Content="Clear"
+                HorizontalAlignment="Left"
+                Height="19"
+                Margin="585,345,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Background="#FFFF84A0"
+                FontFamily="Palatino Linotype"/>
+
+        <TextBox HorizontalAlignment="Left"
+                 Height="20"
+                 Margin="300,26,0,0"
+                 TextWrapping="Wrap"
+                 Text="❀"
+                 VerticalAlignment="Top"
+                 Width="14"
+                 Background="#FFCDF9FF"
+                 FontWeight="Bold"
+                 BorderBrush="#FFCDF9FF"/>
+
+        <TextBox HorizontalAlignment="Left"
+                 Height="20"
+                 Margin="438,48,0,0"
+                 TextWrapping="Wrap"
+                 Text="❀"
+                 VerticalAlignment="Top"
+                 Width="16"
+                 Background="#FFCDF9FF"
+                 FontWeight="Bold"
+                 BorderBrush="#FFCDF9FF"/>
+
+
+    </Grid>
+</Window>
